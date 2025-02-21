@@ -12,5 +12,5 @@ public class CustomerDTO {
     private Integer customerId;
     private String customerName;
     private Integer accountNumber;
-    private
+
 }
