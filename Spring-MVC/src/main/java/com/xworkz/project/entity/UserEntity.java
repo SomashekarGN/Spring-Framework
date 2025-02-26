@@ -12,6 +12,8 @@ import javax.persistence.*;
 @Entity
 @ToString
 @Table(name = "user_details")
+@NamedQuery(name = "getAllUser",query = "from UserEntity entities")
+@NamedQuery(name = "deleteUserbyId",query = "delete from UserEntity entity where entity.id=:id")
 public class UserEntity {
 
     @Id
