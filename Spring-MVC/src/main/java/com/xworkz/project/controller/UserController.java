@@ -1,6 +1,5 @@
 package com.xworkz.project.controller;
 
-
 import com.xworkz.project.dto.UserDTO;
 import com.xworkz.project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +14,8 @@ public class UserController {
     @Autowired
     UserService userservice;
 
-    public UserController() {
+    public UserController()
+    {
         System.out.println("UserController Object Selected...!");
     }
 
