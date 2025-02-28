@@ -12,7 +12,7 @@ public class CountryRepoImpl implements CountyRepo{
     public boolean save(CountryEntity entity) {
          EntityManagerFactory emf= Persistence.createEntityManagerFactory("abc");
          EntityManager entityManager=emf.createEntityManager();
-        System.out.println("Somshekar   "+entity);
+        System.out.println("Somshekar"+entity);
 
         try {
             if(entity!=null)
