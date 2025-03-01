@@ -1,5 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=US-ASCII"
+       pageEncoding="US-ASCII"%>
 <html>
 <body>
-<h2>Hello World!</h2>
+ <a href="sign-up.jsp">Sign-up</a>
+ </br>
+  <a href="getuser.jsp">Get User Info</a>
+
+    <a href="getallusers"> All User Info</a>
 </body>
 </html>
